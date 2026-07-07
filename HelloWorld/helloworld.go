@@ -10,7 +10,7 @@ func main() {
 func greetings() {
 	name := "Anders"
 	age := 31
-
+	// := opretter en variabel (Go gætter typen, udfra værdien) smort
 	fmt.Printf("Navn: %s, Alder: %d \n", name, age)
 }
 
