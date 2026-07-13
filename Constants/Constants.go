@@ -17,10 +17,10 @@ func main() {
 	const n = 50000000
 
 	const d = 3e20 / n
-	fmt.Println(d, ":: <-  const n(500000), dividerde med 3e20")
+	fmt.Println(d, "   :: <-  const n(500000), dividerde med 3e20 \n")
 
 	fmt.Println(int64(d))
-	fmt.Println("overstående: int64(d)")
+	fmt.Println("\noverstående: int64(d) \n")
 
-	fmt.Println(math.Sin(n), "math.Sin(n)")
+	fmt.Println(math.Sin(n), "   math.Sin(n)")
 }
